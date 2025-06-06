@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+    <title>Cafeteria Imperial</title>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a class="equis"><img src="IMAGENES/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+            <li><a class="mobile" href="index.html">Inicio</a></li>
+            <li><a class="mobile" href="Comida.html">Menú</a></li>
+            <li><a class="mobile" href="contacto.html">Contacto</a></li>
+        </ul>
+        <ul>
+            <li ><a href=""><img src="IMAGENES/logodestarwars.svg" alt="" width="80px"><img src="IMAGENES/TIPOGRAFIA-pro.svg" alt="" width="160px"></a></li>
+            <li class="hideOnMobile"><a href="index.html">Inicio</a></li>
+            <li class="hideOnMobile"><a href="Comida.html">Menú</a></li>
+            <li class="hideOnMobile"><a href="contacto.html">Sobre Nosotros</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><img src="IMAGENES/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="parallax">
+            <h2>Sobre Nosotros</h2>
+        </section>
+        <section class="segundaetapa">
+            <div class="informacion">
+                <h3>Café Imperial</h3>
+                <p>
+                    Somos una exclusiva cafetería donde el arte minimalista se fusiona con la icónica saga de Star Wars para ofrecerte una experiencia única y
+                    sofisticada. Ubicada en el corazón de la ciudad, Minimal Force es un refugio para los amantes del buen café.
+                </p>
+                <p>
+                    Nos destacamos por su diseño interior que rinde homenaje a la elegancia simple del minimalismo, 
+                    combinado con sutiles toques inspirados en Star Wars. Al entrar, los clientes son recibidos por un espacio amplio y luminoso, 
+                    con paredes blancas y decoraciones lineales que evocan la serenidad de un monasterio Jedi. Los muebles son de madera clara y metal, 
+                    con formas geométricas que recuerdan las naves espaciales de la saga.
+                </p>
+            </div>
+            <div class="imagenescool">
+                <div class="rectangulo"></div>
+                <img src="IMAGENES/contacto-3.jpg" alt="" id="parallaxImage">
+            </div>
+        </section>
+        <section>
+            <h2>Ubicación</h2>
+        </section>
+        <section class="etapa-3">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.9534828589194!2d-96.13824158936526!3d19.19723398195751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c346b941a68f79%3A0x8ed5f30f0f78d21a!2sCafeter%C3%ADa%20Imperial!5e0!3m2!1ses!2smx!4v1716763116479!5m2!1ses!2smx"
+                 width="100%" height="100%" 
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="relleno100"></div>
+            <div class="ubicacionentexto">
+                <div class="ubicaciones">
+                    <div class="ubicacionesuno">
+                        <h4>C. Balcon del Rocío 5474, Vista del Valle, 32668 Juárez, Chih.</h4>
+                        <h5>L - V: 7:00 a.m. a 7:00 p.m</h5>
+                        <h5>S & D: 10:00 a.m. a 9:00 p.m.</h5>
+                    </div>
+                    <div class="ubicacionesdos">
+                        <h4>C. Uva 6030, Granjero, 32690 Juárez, Chih</h4>
+                        <h5>L - V: 7:00 a.m. a 7:00 p.m</h5>
+                        <h5>S & D: 10:00 a.m. a 9:00 p.m.</h5> 
+                    </div>
+                </div>
+                <div class="fotocafe">
+                    <img src="IMAGENES/contacto-4.jpg" alt="" class="rotating-image">
+                </div>
+            </div>
+        </section> 
+    </main>
+    <footer>
+        <div id="primera">
+            <div class="contenidos">
+                <a href="index.html">PAGINA PRINCIPAL</a>
+                <a href="">INICIO</a>
+                <a href="">COMIDA</a>
+                <a href="">UBICACIONES</a>
+            </div>
+            <div class="legales">
+                <a href="">POLITICAS DE PRIVACIDAD</a>
+                <a href="">CONDICIONES DE USO</a>
+                <a href=""></a>
+            </div>
+        </div>
+        <div id="sociales">
+            <a href="#"><i class="fa fa-facebook-square" style="font-size:49px"></i></a>
+            <a href="#"><i class="fa fa-instagram" style="font-size:49px"></i></a>
+            <a href="#"><i class="fa fa-twitter-square" style="font-size:49px"></i></i></a>
+            <a href="#"><i class="fa fa-youtube-play" style="font-size:49px"></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
